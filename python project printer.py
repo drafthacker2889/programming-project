@@ -16,7 +16,7 @@ def open_file():
       Label(win, text=t , font=('Areial 11')).pack()
       f.close()
 
-
+win.title("Python printer")
 label = Label(win, text="select the file to print it", font=('Georgia 13'))
 label.pack(pady=10)
 
